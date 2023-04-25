@@ -3,6 +3,9 @@ Receive alerts from vRealize Log Insight
 This has been tested with Log Insight 8.6
 
 # Using the plugin
+Plugins need to be added to the 'plugins' directory of the Network Assistant, each in their own folder.
+Plugins are then enabled in the global configuration file
+
 ### Enabling Webhooks
     Webhooks need to be enabled in Log Insight. This is done by creating a webhook, and assigning to alerts
     
